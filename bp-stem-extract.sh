@@ -18,8 +18,7 @@ ffmpeg -i $pathtofile -acodec copy -map 0:a? \
                [select='a\:18':onfail=ignore]track-18.aac|[select='a\:19':onfail=ignore]track-19.aac|
                [select='a\:20':onfail=ignore]track-20.aac|[select='a\:21':onfail=ignore]track-21.aac|
                [select='a\:22':onfail=ignore]track-22.aac|[select='a\:23':onfail=ignore]track-23.aac"
-#wait($!)
-##todo delete all 0kb file
+
 for i in *; do
   if [ -s $i ]
   then
@@ -31,6 +30,6 @@ for i in *; do
 done
 
 cd ../
-zip -r ${filename}_stems.zip ${filename}_tmp/*
+zip -r ~/Desktop/${filename}_stems.zip ${filename}_tmp/*
 rm -r ${filename}_tmp
-#wait($!)
+
