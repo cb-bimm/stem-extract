@@ -7,7 +7,7 @@ Before running this script make sure that FFmpeg has been installed. Download fr
 
 Instructions: 
 + open terminal
-+ ```curl https://github.com/cb-bimm/stem-extract/blob/main/bp-stem-extract.sh```
++ ```curl -O https://github.com/cb-bimm/stem-extract/blob/main/bp-stem-extract.sh```
 + ```chmod +x bp-stem-extract.sh```
 + ```./bp-stem-extract PATH-TO-FILE```
 
