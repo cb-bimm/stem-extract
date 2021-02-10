@@ -8,14 +8,15 @@ Before running this script make sure that FFmpeg is installed on your system.
 + In the finder window press ```⇧ + ⌘ + g``` and go to folder ```/usr/local/bin/```
 + Unzip the downloaded file and drag it over ```/usr/local/bin/``` folder
   + you may need to administrator rights to complete this step
-+ Open terminal and copy in the command below
++ Open terminal copy in the command below and hit Return
 + ```chmod +x /usr/local/bin/ffmpeg```
 
 **Session Player Files**  
 Session player files that you have downloaded in the app are typically stored in a folder called ```SessionPlayerMusic``` within your Music folder. ```~/Music/SessionMusicPlayer/``` the files end with the extension ```.3fm``` eg. ```tracks_of_my_tears_s3fm0385_0301.3fm```
 
 ## First run instructions: 
-+ open terminal
+Open terminal and run the commands below below one at a time. You can copy and paste them directly into the terminal and hit Return to run.
+Make sure to read the note on the last command before running!
 + ```curl -O https://raw.githubusercontent.com/cb-bimm/stem-extract/main/bp-stem-extract.sh```
 + ```chmod +x bp-stem-extract.sh```
 + ```./bp-stem-extract.sh <PATH-TO-FILE>```\*\*
