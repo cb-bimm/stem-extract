@@ -16,9 +16,10 @@ PATH-TO-FILE is the location of the session player file that you wish to extract
 The full command will look something like 
 ```./bp-stem-extract.sh /Users/ciaranbradshaw/Music/SessionPlayerMusic/ever_fallen_in_love_with_someone_s3fm0295_0301.3fm```
 
-## The resulting zip file will be on your desktop with the same name as the input file.
+## Where's my stems? 
++ The resulting zip file will be on your desktop with the same name as the input file.
 + The stems are in .aac format 
-+ Can be directly imported into Soundtrap
++ These can be directly imported into Soundtrap
 
 ## To extract further stems 
 Just open terminal and run the ```./bp-stem-extract.sh <PATH-TO-FILE>``` command again.
