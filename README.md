@@ -3,7 +3,7 @@
 Simple BASH script for macOS to extract individual stems from the Session Player files and create a zipped archive.
 
 **Requires FFmpeg::** 
-Before running this script make sure that FFmpeg has been installed. Download from https://lame.buanzo.org/#lameosx64bitdl
+Before running this script make sure that FFmpeg is installed on our system. Download from https://lame.buanzo.org/#lameosx64bitdl
 If you are unsure how to install FFmpeg or where to find the session player files, Martin Hibbert explains it very clearly at the beginning of <a href="https://bimmgroup.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=16daffb8-5739-4885-9552-ab9c01155016" target="_blank">this video</a>
 
 Instructions: 
