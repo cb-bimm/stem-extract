@@ -2,7 +2,7 @@
 
 Simple BASH script for macOS to extract individual stems from the Session Player files and create a zipped archive. There is a little bit of setup required on the first run but after that you will be able to extract the stems from any session player file in less than a minute.
 
-**Requires FFmpeg::** 
+**Requires FFmpeg::**  
 Before running this script make sure that FFmpeg is installed on your system. 
 + Download from <a href="https://evermeet.cx/ffmpeg/ffmpeg-4.3.1.zip">here</a>
 + In the finder window press ```⇧ + ⌘ + g``` and go to folder ```/usr/local/bin/```
@@ -11,7 +11,7 @@ Before running this script make sure that FFmpeg is installed on your system.
 + Open terminal and copy in the command below
 + ```chmod +x /usr/local/bin/ffmpeg```
 
-**Session Player Files**
+**Session Player Files**  
 Session player files that you have downloaded in the app are typically stored in a folder called ```SessionPlayerMusic``` within your Music folder. ```~/Music/SessionMusicPlayer/``` the files end with the extension ```.3fm``` eg. ```tracks_of_my_tears_s3fm0385_0301.3fm```
 
 ## First run instructions: 
