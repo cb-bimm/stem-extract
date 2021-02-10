@@ -20,6 +20,6 @@ The full command will look something like
 + The stems are in .aac format 
 + Can be directly imported into Soundtrap
 
-To extract further files just open terminal and run the ```./bp-stem-extract.sh <PATH-TO-FILE>``` command again.
+## To extract further files just open terminal and run the ```./bp-stem-extract.sh <PATH-TO-FILE>``` command again.
 
 
