@@ -3,7 +3,7 @@
 Simple BASH script for macOS to extract individual stems from the Session Player files and create a zipped archive. There is a little bit of setup required on the first run but after that you will be able to extract the stems from any session player file in less than a minute.
 
 **Requires FFmpeg::**  
-Before running this script make sure that FFmpeg is installed on your system. 
+Before running this script make sure that FFmpeg is installed on your system. You can install it using the instructions below. 
 + Download from <a href="https://evermeet.cx/ffmpeg/ffmpeg-4.3.1.zip">here</a>
 + In the finder window press ```⇧ + ⌘ + g``` and go to folder ```/usr/local/bin/```
 + Unzip the downloaded file and drag it over ```/usr/local/bin/``` folder
