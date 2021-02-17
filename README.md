@@ -4,7 +4,7 @@ Simple BASH script for macOS to extract individual stems from the Session Player
 
 **Requires FFmpeg::**  
 Before running this script make sure that FFmpeg is installed on your system. You can install it using the instructions below. 
-+ Download from <a href="https://evermeet.cx/ffmpeg/ffmpeg-4.3.1.zip">here</a>
++ Download FFmpeg installer <a href="https://evermeet.cx/ffmpeg/ffmpeg-4.3.1.zip">here</a>
 + In the finder window press ```⇧ + ⌘ + g``` and go to folder ```/usr/local/bin/```
 + Unzip the downloaded file and drag it over ```/usr/local/bin/``` folder
   + you may need to administrator rights to complete this step
